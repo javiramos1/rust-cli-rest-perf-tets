@@ -6,6 +6,8 @@ The goal of this project is to showcase Rust capabilities including the powerful
 
 This application can run performance tests and printout the results. It support GET and POST requests with an additional body.
 
+It uses [Tokio](https://tokio.rs/) to run concurrent request using multiple producers running requests in parallel.
+
 **NOTE:** This is just a personal project to demo Rust capabilities. It is not intended to be used in Production.
 
 ## Goals
